@@ -1,3 +1,3 @@
 class Environment {
-  static const authBaseUrl = 'http://localhost:3002/api/';
+  static const authBaseUrl = 'https://auth-platform-api.herokuapp.com/api/';
 }
