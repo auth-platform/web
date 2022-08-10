@@ -37,7 +37,7 @@ class App extends StatelessWidget {
   App({super.key});
 
   final GoRouter _router = GoRouter(
-    urlPathStrategy: UrlPathStrategy.path,
+    // urlPathStrategy: UrlPathStrategy.path,
     routes: [
       NoTransitionRoute(path: PagePath.home, child: const HomePage(title: 'Auth Platform')),
       NoTransitionRoute(path: PagePath.login, child: LoginPage(AuthService.shared)),
